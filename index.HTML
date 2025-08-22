@@ -2,9 +2,18 @@
 <link rel="stylesheet" href="styles.css">
 <head>
   <Title>Polthagorn Onthong</Title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
 </head>
 <body>
-  <h1>พนธกร อ่อนทอง</h1>
+  <div id="splash" class="text-center">
+    <div>
+      <h1 class="fw-bold">Members only — pay to continue.</h1>
+      <p class="lead">Promtpay: 094-890-0979</p>
+      <h1 class="fw-bold">Just kidding…</h1>
+    </div>
+  </div>
+  <h1 class="text-white">พนธกร อ่อนทอง</h1>
   <div class="Profile_pic"><img src="Polthagorn_image.jpg" alt="My pic"></body></div> 
     <div style="display: flex; justify-content: center;">
       <p> Hello my name is Polthagorn Onthong.<br>
@@ -20,7 +29,7 @@
       <a href="https://www.facebook.com/phnth.kr.k.lb.pi/">My_Facebook</a>
     </button></div>
     <div style="display: flex; justify-content: center;">
-      <h3>This is my hobby list:</h3>
+      <h3 class="text-white">This is my hobby list:</h3>
     </div>
     <div style="display: flex; justify-content: center;"><ol>
       <li>Gunpla</li>
@@ -47,15 +56,28 @@
   <button class="close-btn" onclick="this.parentElement.classList.add('hide')">X</button>
   <img src="https://media1.tenor.com/m/29vGzYwTmqsAAAAd/ufabet-%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C.gif" alt="fun gif">
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-  // Get button and gif container
   const closeBtn = document.getElementById("closeGif");
   const gifBox = document.getElementById("gifBox");
 
-  // When click close, add .hide class
   closeBtn.addEventListener("click", () => {
     gifBox.classList.add("hide");
   });
     </script>
+    <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const splash = document.getElementById('splash');
+        const main = document.getElementById('main-content');
+        
+
+        splash.classList.add('hide');
+        main.classList.add('show');
+
+        setTimeout(() => splash.style.display = 'none', 1000);
+      }, 3000);
+    });
+  </script>
   </body>
 </html>
