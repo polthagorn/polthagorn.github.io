@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://wallpapercave.com/wp/wp9181623.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,7 +8,7 @@ body {
 
 h1 {
     color: white;                
-    -webkit-text-stroke: 0.2px black;
+    -webkit-text-stroke: 1.5px black;
     font-weight: bold;          
     text-align: center;           
 }
