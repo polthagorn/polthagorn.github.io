@@ -53,3 +53,56 @@ button {
 button:hover {
     transform: scale(2);
 }
+
+/* Shared GIF style */
+.gif-container {
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  align-items: flex-start;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.gif-container img {
+  height: auto;
+  border-radius: 10px;
+}
+
+.gif-container.hide {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.gif-bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Left GIF */
+.gif-left {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+/* Right GIF */
+.gif-right {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* Close button */
+.close-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: -15px;
+  margin-top: -10px;
+}

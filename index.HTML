@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>พนธกร อ่อนทอง</h1>
-  <img src="Polthagorn_image.jpg" alt="My pic"></body> 
+  <div class="Profile_pic"><img src="Polthagorn_image.jpg" alt="My pic"></body></div> 
     <div style="display: flex; justify-content: center;">
       <p> Hello my name is Polthagorn Onthong.<br>
         I am a student at Thammasat University, studying in the Faculty of Computer Engineering.<br>
@@ -31,5 +31,31 @@
       <li>Programming</li>
       <li>Airsoft_gun</li>
     </ol></div>
+<div class="gif-container gif-bottom" id="gifBoxBottom">
+  <button class="close-btn" onclick="this.parentElement.classList.add('hide')">X</button>
+  <a href="https://i5.walmartimages.com/seo/No-Gambling-BLACK-Aluminum-Composite-Sign-15-x18_1b9a1660-3ca5-476a-9043-dd0c54b17bbf.4e29d197869d765a0ec488a7992423f7.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF">
+    <img src="https://media1.tenor.com/m/hYFniKWhklEAAAAd/ufabet-%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C.gif" alt="fun gif">
+  </a>
+</div>
+
+<div class="gif-container gif-left" id="gifBoxLeft">
+  <button class="close-btn" onclick="this.parentElement.classList.add('hide')">X</button>
+  <img src="https://cdn.pixabay.com/animation/2023/07/03/11/50/11-50-40-255_512.gif" alt="fun gif">
+</div>
+
+<div class="gif-container gif-right" id="gifBoxRight">
+  <button class="close-btn" onclick="this.parentElement.classList.add('hide')">X</button>
+  <img src="https://media1.tenor.com/m/29vGzYwTmqsAAAAd/ufabet-%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C.gif" alt="fun gif">
+</div>
+    <script>
+  // Get button and gif container
+  const closeBtn = document.getElementById("closeGif");
+  const gifBox = document.getElementById("gifBox");
+
+  // When click close, add .hide class
+  closeBtn.addEventListener("click", () => {
+    gifBox.classList.add("hide");
+  });
+    </script>
   </body>
 </html>
