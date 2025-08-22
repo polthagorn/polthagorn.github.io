@@ -1,6 +1,5 @@
 # MY_PROFILE
-## Name
-- Polthagorn Onthong 
+## Name: Polthagorn Onthong 
 - พนธกร อ่อนทอง
 - ID:6610685262
 - Computer Engineering
