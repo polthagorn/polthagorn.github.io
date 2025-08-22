@@ -6,7 +6,7 @@
 - Computer Engineering
 - Hobby: Plastic_Model , Airsoft_Gun , Drawing
 - Contact: polthagorn@gmail.com / +66 94 890 0979
--![Alt text](image-url "https://drive.google.com/file/d/1CDe_Iw56_zaE8KxF2ufkhK4jaL7_T7bd/view?usp=drive_link")
+- ![ดูก่อนโดนลบ](image-url "https://github.com/polthagorn/polthagorn.github.io/blob/main/Polthagorn_image.jpg")
 
 
 
