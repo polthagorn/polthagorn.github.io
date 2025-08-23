@@ -47,26 +47,15 @@ img {
     transition: transform 2s ease;
 }
 .gif-container img:hover {
-  transform: scale(0.8);
-  transition: transform 0.5s ease;
+  transform: scale(0.95);
+  transition: transform 0.05s ease;
 }
 
 img:hover {
     transform: scale(3) translateY(100px);
-    transition: transform 3s ease;
+    transition: transform 1s ease;
     
 }
-
-button {
-    color: white;
-    border: 5px solid navy;
-    transition: transform 0.3s ease;
-}
-
-button:hover {
-    transform: scale(2);
-}
-
 
 .gif-container {
   position: fixed;
@@ -184,4 +173,13 @@ button:hover {
   bottom: 40px;
   opacity: 0.8;
 
+}
+
+.list-group-item {
+  background: transparent;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
+  font-weight: bold;
+  text-align: left;
+  border: none;
 }
