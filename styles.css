@@ -52,8 +52,9 @@ img {
 }
 
 img:hover {
-    transform: scale(2);
-    transition: transform 0.5s ease;
+    transform: scale(3) translateY(100px);
+    transition: transform 3s ease;
+    
 }
 
 button {
@@ -152,7 +153,22 @@ button:hover {
 .cool-box {
   width: fit-content;
   background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 15px 40px;
+
   border: 2px solid #00aaff;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4); 
+  text-align: center;
+  margin: 0 auto; 
+
+}.nice-box {
+  width: fit-content;
+  background: linear-gradient(135deg, #eaeaea, #838383);
+  padding: 15px 15px;
+
+  border: 2px solid #000552;
   border-radius: 15px;
   color: white;
   font-size: 1.2rem;
@@ -164,8 +180,8 @@ button:hover {
 .zoom-icon {
   position: relative;
   text-align: center;
-  left: 8%;
-  bottom: 30px;
+  left: 125px;
+  bottom: 40px;
   opacity: 0.8;
 
 }
