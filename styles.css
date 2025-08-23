@@ -151,13 +151,21 @@ button:hover {
 
 .cool-box {
   width: fit-content;
-  background: linear-gradient(135deg, #1e3c72, #2a5298); /* gradient background */
-  border: 2px solid #00aaff; /* border color */
-  border-radius: 15px; /* rounded corners */
-  padding: 15px 20px; /* inner space */
-  color: white; /* text color */
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  border: 2px solid #00aaff;
+  border-radius: 15px;
+  color: white;
   font-size: 1.2rem;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.4); /* shadow */
-  text-align: center; /* optional, center text */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4); 
+  text-align: center;
   margin: 0 auto;   
+}
+
+.zoom-icon {
+  position: relative;
+  text-align: center;
+  left: 8%;
+  bottom: 30px;
+  opacity: 0.8;
+
 }
